@@ -1,0 +1,22 @@
+.mobile-menu {
+	display: flex;
+	flex-direction: column;
+	width: 320px;
+	box-sizing: border-box;
+	padding-top: 18px;
+	padding-bottom: 32px;
+	box-shadow: 5px 0px 50px -20px rgb(75, 73, 73);
+	background-color: white;
+	transition: all 0.5s ease-out;
+ 
+	@media screen and (min-width: 500px) and (max-width: 767px) {
+	  width: 360px;
+	}
+	@media screen and (max-width: 1439px) {
+	  min-height: 100vh;
+	}
+	@media screen and (min-width: 1440px) {
+	  height: 100%;
+	  box-shadow: none;
+	}
+ }

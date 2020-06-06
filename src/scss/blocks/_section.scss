@@ -1,0 +1,39 @@
+.section {
+	width: 720px;
+	margin: 24px auto;
+ 
+	@media screen and (min-width: 1440px) {
+	  width: 1056px;
+	}
+	@media screen and (max-width: 767px) {
+	  display: none;
+	}
+ 
+	&__catalog {
+	  display: grid;
+	  grid-template-columns: auto auto auto;
+	  gap: 16px 24px;
+ 
+	  @media screen and (min-width: 1440px) {
+		 grid-template-columns: auto auto auto auto;
+		 gap: 16px 32px;
+	  }
+ 
+	  & > *:nth-child(7) {
+		 @media screen and (min-width: 1440px) {
+			grid-column: 4/5;
+			grid-row: 1/2;
+		 }
+	  }
+	}
+ 
+	&__hidden {
+	  height: 160px;
+	  overflow: hidden;
+	}
+ 
+	&__detail {
+	  margin-top: 24px;
+	  margin-left: 5px;
+	}
+ }

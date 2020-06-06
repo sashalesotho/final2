@@ -1,0 +1,37 @@
+.navigation {
+	margin-top: 30px;
+	margin-bottom: 20px;
+ 
+	&__link {
+	  display: block;
+	  position: relative;
+	  color: black;
+	  font-weight: 500;
+	  text-decoration: none;
+	  padding: 16px 24px;
+	  opacity: 1;
+	  transition: opacity 0.3s ease-out 0s;
+	}
+ 
+	&__link:focus {
+	  opacity: 0.5;
+	}
+ 
+	&__link::before {
+	  content: "";
+	  display: inline-block;
+	  width: 5px;
+	  height: 32px;
+	  background-color: #41f6d7;
+	  border-radius: 0 5px 5px 0;
+	  position: absolute;
+	  left: 0px;
+	  top: 8px;
+	  opacity: 0;
+	  transition: opacity 0.3s ease-out 0s;
+	}
+ 
+	&__link:focus::before {
+	  opacity: 1;
+	}
+ }
