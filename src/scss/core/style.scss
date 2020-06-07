@@ -1,30 +1,30 @@
-@import "_fonts";
-@import "_variables";
-@import "_reset";
-@import "_patterns";
+@import "./_fonts.scss";
+@import "./_variables.scss";
+@import "./_reset.scss";
+@import "./_patterns.scss";
 
-@import "../blocks/_main-container";
-@import "../blocks/_header";
-@import "../blocks/_page-container";
-@import "../blocks/_page";
-@import "../blocks/_title";
-@import "../blocks/_menu";
-@import "../blocks/_content";
+@import "../blocks/_main-container.scss";
+@import "../blocks/_header.scss";
+@import "../blocks/_page-container.scss";
+@import "../blocks/_page.scss";
+@import "../blocks/_title.scss";
+@import "../blocks/_menu.scss";
+@import "../blocks/_content.scss";
 
-@import "../blocks/_mobile";
-@import "../blocks/_mobile-menu";
-@import "../blocks/_head-panel";
-@import "../blocks/_navigation";
-@import "../blocks/_contacts";
+@import "../blocks/_mobile.scss";
+@import "../blocks/_mobile-menu.scss";
+@import "../blocks/_head-panel.scss";
+@import "../blocks/_navigation.scss";
+@import "../blocks/_contacts.scss";
 
-@import "../blocks/_slider";
-@import "../blocks/_brands";
-@import "../blocks/_technics";
-@import "../blocks/_price";
-@import "../blocks/_wrapper";
-@import "../blocks/_section";
+@import "../blocks/_slider.scss";
+@import "../blocks/_brands.scss";
+@import "../blocks/_technics.scss";
+@import "../blocks/_price.scss";
+@import "../blocks/_wrapper.scss";
+@import "../blocks/_section.scss";
 
-@import "../blocks/_modal-container";
-@import "../blocks/_modal";
+@import "../blocks/_modal-container.scss";
+@import "../blocks/_modal.scss";
 
-@import "../blocks/_footer";
+@import "../blocks/_footer.scss";
