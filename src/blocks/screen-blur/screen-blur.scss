@@ -1,0 +1,23 @@
+$screen-sm: 320px;
+$screen-md: 768px;
+$screen-xl: 1366px;
+
+$color-background: rgba(255, 255, 255, 0.96);
+
+.screen-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-color: $color-background;
+  width: 100vw;
+  height: 100vh;
+
+  &--visible {
+    display: block;
+  }
+
+  &--hidden {
+    display: none;
+  }
+}

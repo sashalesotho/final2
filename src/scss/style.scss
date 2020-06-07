@@ -1,0 +1,114 @@
+@import "/node_modules/normalize.css/normalize.css";
+@import "/node_modules/swiper/css/swiper.min.css";
+
+@import "../blocks/page/page.scss";
+@import "../blocks/header/header.scss";
+@import "../blocks/heading/heading.scss";
+@import "../blocks/main/main.scss";
+@import "../blocks/content/content.scss";
+@import "../blocks/more/more.scss";
+@import "../blocks/footer/footer.scss";
+@import "../blocks/button-icon/button-icon.scss";
+@import "../blocks/button-text/button-text.scss";
+@import "../blocks/button-brand/button-brand.scss";
+@import "../blocks/button-device/button-device.scss";
+@import "../blocks/button-service/button-service.scss";
+@import "../blocks/button-commercial-offer/button-commercial-offer.scss";
+@import "../blocks/button/button.scss";
+@import "../blocks/phone/phone.scss";
+@import "../blocks/language-switcher/language-switcher.scss";
+@import "../blocks/selector/selector.scss";
+@import "../blocks/sub-header/sub-header.scss";
+@import "../blocks/price-list/price-list.scss";
+@import "../blocks/text-link/text-link.scss";
+@import "../blocks/submit-conditions/submit-conditions.scss";
+@import "../blocks/form-element/form-element.scss";
+@import "../blocks/burger-menu/burger-menu.scss";
+@import "../blocks/form-feedback/form.scss";
+@import "../blocks/logo/logo.scss";
+@import "../blocks/screen-blur/screen-blur.scss";
+
+$color-swiper-pagination-bullet: #B5B6BC;
+
+@font-face {
+  font-family: $base-font;
+  src: url('fonts/TTLakes-Regular.eot');
+  src: local('fonts/TT Lakes Regular'), local('fonts/TTLakes-Regular'), url('fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/TTLakes-Regular.woff') format('woff'), url('fonts/TTLakes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes Medium';
+  src: url('fonts/TTLakes-Medium.eot');
+  src: url('fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+  url('fonts/TTLakes-Medium.woff') format('woff'),
+  url('fonts/TTLakes-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $base-font;
+  src: url('fonts/TTLakes-Bold.eot');
+  src: local('fonts/TT Lakes Bold'), local('fonts/TTLakes-Bold'), url('fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/TTLakes-Bold.woff') format('woff'), url('fonts/TTLakes-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.swiper-pagination-bullet {
+  background-color: $color-swiper-pagination-bullet;
+}
+
+#more-devices.swiper-container {
+  @media screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+    height: 228px;
+  }
+}
+
+#more-brands.swiper-container {
+  @media screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+    height: 140px;
+  }
+}
+
+#swiper-services.swiper-container {
+  @media screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+    height: 260px;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+
+.swiper-pagination-clickable {
+  @media screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+    display: block;
+  }
+  @media screen and (min-width: $screen-md) {
+    display: none;
+  }
+}
+
+#more-content .more__content--shrinked {
+
+  @media screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+    height: $step * 11;
+  }
+  @media screen and (min-width: $screen-md) and (max-width: $screen-xl) {
+    height: $step * 20;
+  }
+  @media screen and (min-width: $screen-xl) {
+    height: $step * 22;
+  }
+}
+
+#more-brands.more__content--shrinked {
+  height: $step * 24;
+}
+
+#more-devices.more__content--shrinked {
+  height: $step * 24;
+}
