@@ -50,7 +50,7 @@ $headerHeight: $step * 11;
     }
   }
 
-  &__button-check_status {
+  &__button-checkstatus {
     @media screen and (min-width: $screen-xl) {
       display: none;
     }

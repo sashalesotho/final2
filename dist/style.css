@@ -423,7 +423,7 @@ template {
     .header__button-repair {
       display: none; } }
   @media screen and (min-width: 1366px) {
-    .header__button-check_status {
+    .header__button-checkstatus {
       display: none; } }
   .header__contacts {
     margin-left: 8px;
@@ -735,7 +735,7 @@ template {
     background-image: url(./static/call.svg); }
   .button-icon--chat {
     background-image: url(./static/chat.svg); }
-  .button-icon--check_status {
+  .button-icon--checkstatus {
     background-image: url(./static/check_status.svg); }
   .button-icon--profile {
     background-image: url(./static/profile.svg); }

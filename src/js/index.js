@@ -1,6 +1,7 @@
 import '../scss/style.scss';
 
-import Swiper from '../../node_modules/swiper/js/swiper';
+import Swiper from "swiper";
+import '../../node_modules/swiper/js/swiper';
 
 import {
 	classHeader,
