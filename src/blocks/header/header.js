@@ -1,6 +1,0 @@
-export const classHeader = "header"
-export const elementSeparator = "__"
-export const modifierSeparator = "--"
-export const modifierVisible = modifierSeparator + "visible"
-export const modifierHidden = modifierSeparator + "hidden"
-export const classHeaderButtonIcon = classHeader + elementSeparator + "button-icon"
